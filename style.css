@@ -1,1 +1,101 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
 
+/* Header */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #222;
+    border-bottom: 2px solid #222;
+    padding-bottom: 10px;
+}
+
+/* Skills */
+ul {
+    list-style-type: square;
+}
+
+/* Projects */
+.project {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    background: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Mobile Design */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+}
